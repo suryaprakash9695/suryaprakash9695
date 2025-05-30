@@ -1,11 +1,5 @@
 # Hi there, I'm Surya Prakash Singh 👋
 
-![Header](https://img.shields.io/badge/-Welcome%20to%20my%20GitHub-lightgrey?style=for-the-badge&logo=github&logoColor=white)
-
-![Coding GIF](https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif)
-
-Welcome to my GitHub repository! I'm a passionate developer with a strong background in computer science and a love for creating innovative projects. My goal is to become a professional web developer or software developer while contributing to impactful tech solutions.
-
 ---
 
 ## About Me 🌟
@@ -20,6 +14,13 @@ Welcome to my GitHub repository! I'm a passionate developer with a strong backgr
 
 - 🏸 **Hobbies:** Coding and playing badminton.
 
+- 🌟 **Passions:**
+  - Creating innovative tech solutions.
+  - Exploring emerging trends in AI and Web Development.
+  - Contributing to open-source communities.
+
+- 🌐 **Languages Spoken:** English, Hindi.
+
 ---
 
 ## Skills 💻
@@ -28,9 +29,11 @@ Welcome to my GitHub repository! I'm a passionate developer with a strong backgr
 
 | **Category**       | **Skills**                                                                                  |
 |---------------------|--------------------------------------------------------------------------------------------|
-| **Programming**     | ![C](https://img.shields.io/badge/-C-blue?style=flat-square) ![Java](https://img.shields.io/badge/-Java-orange?style=flat-square) ![Python](https://img.shields.io/badge/-Python-blue?style=flat-square) |
-| **Web Development** | ![HTML](https://img.shields.io/badge/-HTML-orange?style=flat-square) ![CSS](https://img.shields.io/badge/-CSS-blue?style=flat-square) ![JavaScript](https://img.shields.io/badge/-JavaScript-yellow?style=flat-square) ![Bootstrap](https://img.shields.io/badge/-Bootstrap-purple?style=flat-square) ![PHP](https://img.shields.io/badge/-PHP-blueviolet?style=flat-square) |
-| **Database**        | ![Database Management](https://img.shields.io/badge/-Database%20Management-green?style=flat-square) |
+| **Programming**     | ![C](https://img.shields.io/badge/-C-blue?style=flat-square) ![Java](https://img.shields.io/badge/-Java-orange?style=flat-square) ![Python](https://img.shields.io/badge/-Python-blue?style=flat-square) ![C++](https://img.shields.io/badge/-C++-green?style=flat-square) |
+| **Web Development** | ![HTML](https://img.shields.io/badge/-HTML-orange?style=flat-square) ![CSS](https://img.shields.io/badge/-CSS-blue?style=flat-square) ![JavaScript](https://img.shields.io/badge/-JavaScript-yellow?style=flat-square) ![Bootstrap](https://img.shields.io/badge/-Bootstrap-purple?style=flat-square) ![PHP](https://img.shields.io/badge/-PHP-blueviolet?style=flat-square)  |
+| **Database**        | ![MySQL](https://img.shields.io/badge/-MySQL-orange?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-blue?style=flat-square) |
+| **Tools & Platforms**| ![Git](https://img.shields.io/badge/-Git-red?style=flat-square) ![GitHub](https://img.shields.io/badge/-GitHub-black?style=flat-square) ![VS Code](https://img.shields.io/badge/-VS%20Code-blue?style=flat-square) |
+| **Other**           | ![Linux](https://img.shields.io/badge/-Linux-yellowgreen?style=flat-square) ![APIs](https://img.shields.io/badge/-APIs-lightblue?style=flat-square) |
 
 ---
 
@@ -40,13 +43,14 @@ Welcome to my GitHub repository! I'm a passionate developer with a strong backgr
 
 | Project Name                          | Description                                                                 |
 |---------------------------------------|-----------------------------------------------------------------------------|
-| 🌐 **My Portfolio**                  | A personal portfolio showcasing my skills, achievements, and projects.     |
-| 📝 **NotesXpert**                    | A dynamic notes management system to track ideas and tasks efficiently.    |
-| 💻 **Responsive Form**               | A highly responsive form design for collecting user data interactively.     |
-| 🏥 **CureNet**                       | A hospital management system for streamlining hospital workflows.          |
-| 👨‍💻 **TechPro**                     | A resume maker website to simplify professional resume creation.            |
-| 🏋️‍♂️ **SN GYM Membership Form** | Dynamic membership form with QR code payment and preview functionality.    |
-| 🤖 **AI Smart Attendance System**    | Automating attendance tracking using AI and database integration.           |
+| 🌐 [**My Portfolio**](https://suryaprakashsingh.netlify.app/)        | A personal website showcasing my journey, skills, and professional projects.     |
+| 👨‍💻 [**TechPro**](https://teamtechpro.netlify.app)     | A freelancing website offering tech solutions and services.            |
+| 📝 [**NotesXpert**](https://notesxpert.netlify.app) | A note management platform to organize and share notes effectively.    |
+| 💻 [**Responsive Form**](https://responsiveform.netlify.app) | A responsive and interactive form for seamless data collection and validation.     |
+| 🏥 [**WeCare**](https://wecarehospital.netlify.app)        | An AI-driven hospital management system to optimize operations and patient care.       |
+| 🏋️‍♂️ [**SN GYM & FITNESS CLUB**](https://sngym.netlify.app/) | A complete gym website with dynamic membership form and QR-based payment integration.    |
+| 🛍️ [**Mandiwala**](https://) | An online platform integrating farmers, buyers, and cold storages.     |
+| 🆔 [**NOU-ES (Nalanda Open University Online Examination System)**](https://) | A robust online examination system for Nalanda Open University. |
 
 ---
 
@@ -57,13 +61,18 @@ Welcome to my GitHub repository! I'm a passionate developer with a strong backgr
 - 🏅 Completed **Java Advanced** from SoftPro Tech.
 - 🏅 Certified in **Web Development** from Coursera.
 - 🏸 College-level badminton player.
+- 🌟 Developed and implemented a fully functional AI-based attendance system.
+- 🎖️ Won multiple coding hackathons.
+- 🥇 Achieved recognition for creating dynamic and responsive websites for clients.
+- 🌐 Contributed to open-source projects and collaborated with global teams.
+- 📜 Published a research paper on **"Modern Web Technologies and Their Impacts"**.
+- 🧑‍🏫 Conducted workshops on **Web Development** and **Java Programming**.
 
 ---
 
 ## Let's Connect 🤝
 
 ![Connect](https://img.shields.io/badge/-Let's%20Connect-lightblue?style=for-the-badge&logo=connectdevelop&logoColor=white)
-
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=for-the-badge&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/suryaprakashsingh96/)  
 [![Portfolio](https://img.shields.io/badge/-Portfolio-brightgreen?style=for-the-badge&logo=About.me&logoColor=white)](https://suryaprakashsingh.netlify.app/)  
 [![Email](https://img.shields.io/badge/-Email-red?style=for-the-badge&logo=Gmail&logoColor=white)](mailto:surya9792844645@gmail.com)
@@ -71,7 +80,3 @@ Welcome to my GitHub repository! I'm a passionate developer with a strong backgr
 Feel free to explore my repositories and connect with me to collaborate on innovative projects. Let's make technology impactful together!
 
 ---
-
-![Footer](https://img.shields.io/badge/-Happy%20Coding!-brightorange?style=for-the-badge&logo=smile&logoColor=white)
-
-![Thank You](https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif)
