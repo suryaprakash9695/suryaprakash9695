@@ -60,14 +60,8 @@
 
 - 🏅 Completed **Java Advanced** from SoftPro Tech.
 - 🏅 Certified in **Web Development** from Coursera.
-- 🏸 College-level badminton player.
-- 🌟 Developed and implemented a fully functional AI-based attendance system.
-- 🎖️ Won multiple coding hackathons.
 - 🥇 Achieved recognition for creating dynamic and responsive websites for clients.
 - 🌐 Contributed to open-source projects and collaborated with global teams.
-- 📜 Published a research paper on **"Modern Web Technologies and Their Impacts"**.
-- 🧑‍🏫 Conducted workshops on **Web Development** and **Java Programming**.
-
 ---
 
 ## Let's Connect 🤝
