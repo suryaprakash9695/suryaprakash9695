@@ -30,7 +30,7 @@
 | **Category**       | **Skills**                                                                                  |
 |---------------------|--------------------------------------------------------------------------------------------|
 | **Programming**     | ![C](https://img.shields.io/badge/-C-blue?style=flat-square) ![Java](https://img.shields.io/badge/-Java-orange?style=flat-square) ![Python](https://img.shields.io/badge/-Python-blue?style=flat-square) ![C++](https://img.shields.io/badge/-C++-green?style=flat-square) |
-| **Web Development** | ![HTML](https://img.shields.io/badge/-HTML-orange?style=flat-square) ![CSS](https://img.shields.io/badge/-CSS-blue?style=flat-square) ![JavaScript](https://img.shields.io/badge/-JavaScript-yellow?style=flat-square) ![Bootstrap](https://img.shields.io/badge/-Bootstrap-purple?style=flat-square) ![PHP](https://img.shields.io/badge/-PHP-blueviolet?style=flat-square)  |
+| **Web Development** | ![HTML](https://img.shields.io/badge/-HTML-orange?style=flat-square) ![CSS](https://img.shields.io/badge/-CSS-blue?style=flat-square) ![JavaScript](https://img.shields.io/badge/-JavaScript-yellow?style=flat-square) ![Bootstrap](https://img.shields.io/badge/-Bootstrap-purple?style=flat-square) ![PHP](https://img.shields.io/badge/-PHP-blueviolet?style=flat-square) ![React](https://img.shields.io/badge/-React-cyan?style=flat-square) |
 | **Database**        | ![MySQL](https://img.shields.io/badge/-MySQL-orange?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-blue?style=flat-square) |
 | **Tools & Platforms**| ![Git](https://img.shields.io/badge/-Git-red?style=flat-square) ![GitHub](https://img.shields.io/badge/-GitHub-black?style=flat-square) ![VS Code](https://img.shields.io/badge/-VS%20Code-blue?style=flat-square) |
 | **Other**           | ![Linux](https://img.shields.io/badge/-Linux-yellowgreen?style=flat-square) ![APIs](https://img.shields.io/badge/-APIs-lightblue?style=flat-square) |
@@ -73,10 +73,12 @@
 ## Let's Connect 🤝
 
 ![Connect](https://img.shields.io/badge/-Let's%20Connect-lightblue?style=for-the-badge&logo=connectdevelop&logoColor=white)
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=for-the-badge&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/suryaprakashsingh96/)  
-[![Portfolio](https://img.shields.io/badge/-Portfolio-brightgreen?style=for-the-badge&logo=About.me&logoColor=white)](https://suryaprakashsingh.netlify.app/)  
-[![Email](https://img.shields.io/badge/-Email-red?style=for-the-badge&logo=Gmail&logoColor=white)](mailto:surya9792844645@gmail.com)
 
-Feel free to explore my repositories and connect with me to collaborate on innovative projects. Let's make technology impactful together!
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/suryaprakashsingh96/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-brightgreen?style=for-the-badge&logo=aboutdotme)](https://suryaprakashsingh.netlify.app/)
+[![Email](https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail)](mailto:surya9792844645@gmail.com)
+[![TechPro](https://img.shields.io/badge/TechPro-Explore-purple?style=for-the-badge&logo=github)](https://teamtechpro.netlify.app)
+
+Feel free to explore my repositories and connect with me to collaborate on innovative projects. Check out my [**TechPro**](https://teamtechpro.netlify.app) website. Let's make technology impactful together!
 
 ---
