@@ -16,14 +16,21 @@ Welcome to my GitHub repository! I'm a passionate developer with a strong backgr
   - 📘 B.Tech in Computer Science (2024–2027)
   - 📙 Diploma in Computer Science (2021–2024)
 
-- 💻 **Skills:**
-  - Programming: ![C](https://img.shields.io/badge/-C-blue?style=flat-square) ![Java](https://img.shields.io/badge/-Java-orange?style=flat-square) ![Python](https://img.shields.io/badge/-Python-blue?style=flat-square)
-  - Web Development: ![HTML](https://img.shields.io/badge/-HTML-orange?style=flat-square) ![CSS](https://img.shields.io/badge/-CSS-blue?style=flat-square) ![JavaScript](https://img.shields.io/badge/-JavaScript-yellow?style=flat-square) ![Bootstrap](https://img.shields.io/badge/-Bootstrap-purple?style=flat-square) ![PHP](https://img.shields.io/badge/-PHP-blueviolet?style=flat-square)
-  - ![Database Management](https://img.shields.io/badge/-Database%20Management-green?style=flat-square)
-
 - 🚀 **Goals:** To work in multinational corporations (MNCs) and excel in web or software development.
 
 - 🏸 **Hobbies:** Coding and playing badminton.
+
+---
+
+## Skills 💻
+
+![Skills](https://img.shields.io/badge/-Skills-green?style=for-the-badge&logo=codeforces&logoColor=white)
+
+| **Category**       | **Skills**                                                                                  |
+|---------------------|--------------------------------------------------------------------------------------------|
+| **Programming**     | ![C](https://img.shields.io/badge/-C-blue?style=flat-square) ![Java](https://img.shields.io/badge/-Java-orange?style=flat-square) ![Python](https://img.shields.io/badge/-Python-blue?style=flat-square) |
+| **Web Development** | ![HTML](https://img.shields.io/badge/-HTML-orange?style=flat-square) ![CSS](https://img.shields.io/badge/-CSS-blue?style=flat-square) ![JavaScript](https://img.shields.io/badge/-JavaScript-yellow?style=flat-square) ![Bootstrap](https://img.shields.io/badge/-Bootstrap-purple?style=flat-square) ![PHP](https://img.shields.io/badge/-PHP-blueviolet?style=flat-square) |
+| **Database**        | ![Database Management](https://img.shields.io/badge/-Database%20Management-green?style=flat-square) |
 
 ---
 
