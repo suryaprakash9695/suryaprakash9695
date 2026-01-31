@@ -51,6 +51,7 @@
 | 🏋️‍♂️ [**SN GYM & FITNESS CLUB**](https://sngym.netlify.app/) | A complete gym website with dynamic membership form and QR-based payment integration.    |
 | 🛍️ [**Mandiwala**](https://) | An online platform integrating farmers, buyers, and cold storages.     |
 | 🆔 [**NOU-ES (Nalanda Open University Online Examination System)**](https://) | A robust online examination system for Nalanda Open University. |
+| 🌐 [**Buddhbhumi Kushinara Trust - Website](https://buddhbhumi.org/) | It is a Official Website of Buddhbhumi Kushinara Trust - Kushinagar.   |
 
 ---
 
