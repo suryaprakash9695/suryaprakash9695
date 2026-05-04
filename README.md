@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- HEADER BANNER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=220&section=header&text=Surya%20Prakash%20Singh&fontSize=65&fontColor=ffffff&fontAlignY=38&desc=Full%20Stack%20Developer%20%7C%20AI%20Enthusiast%20%7C%20Founder%20@%20Team%20TechPro&descAlignY=60&descSize=18&animation=twinkling" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=220&section=header&text=Surya%20Prakash%20Singh&fontSize=65&fontColor=ffffff&fontAlignY=38&desc=Full%20Stack%20Developer%20%7C%20AI%20&%20OSINT%20Enthusiast%20%7C%20Founder%20@%20Team%20TechPro&descAlignY=60&descSize=18&animation=twinkling" width="100%"/>
 
 <!-- TYPING ANIMATION -->
 <a href="https://git.io/typing-svg">
@@ -9,8 +9,8 @@
 </a>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=suryaprakashsingh96&label=PROFILE+VIEWS&color=7c3aed&style=flat-square" alt="views"/>
-  <img src="https://img.shields.io/github/followers/suryaprakashsingh96?label=FOLLOWERS&style=flat-square&color=7c3aed" alt="followers"/>
+  <img src="https://komarev.com/ghpvc/?username=suryaprakash9695&label=PROFILE+VIEWS&color=7c3aed&style=flat-square" alt="views"/>
+  <img src="https://img.shields.io/github/followers/suryaprakash9695?label=FOLLOWERS&style=flat-square&color=7c3aed" alt="followers"/>
   <img src="https://img.shields.io/badge/STATUS-OPEN_TO_COLLAB-success?style=flat-square" alt="status"/>
 </p>
 
@@ -21,17 +21,17 @@
 
 <table align="center">
   <tr>
-    <td width="55%" style="border: none;">
-      <p>👋 <b>Greetings! I'm Surya,</b> a Full Stack Architect currently pursuing my B.Tech in CSE. I specialize in crafting high-performance web ecosystems and AI-driven applications.</p>
-      <p>I am the founder of <b>Team TechPro</b>, where we transform complex requirements into seamless digital experiences. My approach blends robust engineering with sleek, intuitive design.</p>
+    <td width="55%" style="border: none; vertical-align: top;">
+      <p>👋 <b>Greetings! I'm Surya,</b> a Full Stack Architect and AI Enthusiast. I specialize in crafting high-performance web ecosystems and security-focused applications.</p>
+      <p>I am the founder of <b>Team TechPro</b>, where we transform complex requirements into seamless digital experiences. My work spans from <b>OSINT dashboards</b> to <b>AI-powered security tools</b>.</p>
       <ul>
-        <li>🔭 <b>Building:</b> Mandiwala & NOU-ES Platforms</li>
-        <li>🌱 <b>Exploring:</b> Deep Learning & Edge Computing</li>
-        <li>🏸 <b>Life:</b> Coding by day, Badminton by night</li>
+        <li>🔭 <b>Focus:</b> GEO-INT & AI Security Research</li>
+        <li>🌱 <b>Tech:</b> React, Python, FastAPI, & PHP</li>
+        <li>💻 <b>Goal:</b> Delivering enterprise-grade open source solutions</li>
       </ul>
     </td>
-    <td width="45%" style="border: none;">
-      <img src="https://github-readme-stats.vercel.app/api?username=suryaprakashsingh96&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d111700&title_color=a78bfa&icon_color=7c3aed&text_color=c9d1d9" width="100%" />
+    <td width="45%" style="border: none; vertical-align: top;">
+      <img src="https://github-readme-stats.vercel.app/api?username=suryaprakash9695&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d111700&title_color=a78bfa&icon_color=7c3aed&text_color=c9d1d9" width="100%" />
     </td>
   </tr>
 </table>
@@ -41,50 +41,41 @@
 <div align="center">
 
 ## 🛠️ Tech Arsenal
-<i>The tools and languages powering my daily workflow</i>
-<br/><br/>
-
-<img src="https://skillicons.dev/icons?i=js,py,cpp,java,php,html,css" alt="Languages" /><br/>
-<img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,fastapi,bootstrap,tailwind" alt="Frameworks" /><br/>
-<img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,firebase,git,github,vscode,postman,netlify" alt="Tools" />
-
-</div>
+<img src="https://skillicons.dev/icons?i=js,py,cpp,java,php,html,css,react,nextjs,nodejs,express,fastapi,bootstrap,tailwind,mysql,postgres,mongodb,firebase,git,github,vscode,postman,netlify" alt="Tech Stack" />
 
 ---
 
-<div align="center">
-
-## 🚀 Featured Projects
+## 🚀 Featured Engineering Projects
 </div>
 
 <div align="center">
 <table width="100%">
   <tr>
     <td width="50%" align="center">
-      <br/><b>🌐 TechPro Ecosystem</b><br/>
-      <img src="https://img.shields.io/badge/Status-Live-7c3aed?style=flat-square" />
-      <p>Freelancing hub providing enterprise-grade digital services.</p>
-      <code>JS</code> <code>Node.js</code> <code>Netlify</code>
+      <br/><b>📡 GEO-INT Dashboard</b><br/>
+      <p>Real-time OSINT tracking for global conflicts & financial data.</p>
+      <a href="https://github.com/suryaprakash9695/GEO-INT"><img src="https://img.shields.io/badge/Code-GitHub-white?style=for-the-badge&logo=github&logoColor=black" /></a>
+      <a href="https://suryaprakash9695.github.io/GEO-INT/"><img src="https://img.shields.io/badge/Visit-Live-7c3aed?style=for-the-badge&logo=rocket&logoColor=white" /></a>
     </td>
     <td width="50%" align="center">
-      <br/><b>🏥 WeCare Hospital</b><br/>
-      <img src="https://img.shields.io/badge/AI-Integrated-7c3aed?style=flat-square" />
-      <p>Next-gen management system with AI workflow optimization.</p>
-      <code>React</code> <code>FastAPI</code> <code>Python</code>
+      <br/><b>🛡️ BugTracer (SAST Engine)</b><br/>
+      <p>High-performance vulnerability scanner for JavaScript source code.</p>
+      <a href="https://github.com/suryaprakash9695/TechPro---BugTracer"><img src="https://img.shields.io/badge/Code-Private-grey?style=for-the-badge&logo=github&logoColor=white" /></a>
+      <a href="#"><img src="https://img.shields.io/badge/Visit-Docs-blue?style=for-the-badge&logo=read-the-docs&logoColor=white" /></a>
     </td>
   </tr>
   <tr>
     <td width="50%" align="center">
-      <br/><b>📝 NotesXpert</b><br/>
-      <img src="https://img.shields.io/badge/Utility-Smart-7c3aed?style=flat-square" />
-      <p>High-efficiency note management for students & pros.</p>
-      <code>HTML5</code> <code>JS</code> <code>Bootstrap</code>
+      <br/><b>🤖 ScanMe-AI</b><br/>
+      <p>AI-powered profile analyzer generating deep intelligence from data.</p>
+      <a href="https://github.com/suryaprakash9695/ScanMe-AI"><img src="https://img.shields.io/badge/Code-GitHub-white?style=for-the-badge&logo=github&logoColor=black" /></a>
+      <a href="https://scanme-ai.netlify.app/"><img src="https://img.shields.io/badge/Visit-Live-7c3aed?style=for-the-badge&logo=rocket&logoColor=white" /></a>
     </td>
     <td width="50%" align="center">
-      <br/><b>🛍️ Mandiwala</b><br/>
-      <img src="https://img.shields.io/badge/Status-In_Dev-orange?style=flat-square" />
-      <p>Connecting the agricultural supply chain digitally.</p>
-      <code>PHP</code> <code>MySQL</code> <code>AgriTech</code>
+      <br/><b>🏥 WeCare Hospital</b><br/>
+      <p>Next-gen management system with AI workflow optimization.</p>
+      <a href="https://github.com/suryaprakash9695/Wecare-"><img src="https://img.shields.io/badge/Code-GitHub-white?style=for-the-badge&logo=github&logoColor=black" /></a>
+      <a href="https://wecarehospital.netlify.app/"><img src="https://img.shields.io/badge/Visit-Live-7c3aed?style=for-the-badge&logo=rocket&logoColor=white" /></a>
     </td>
   </tr>
 </table>
@@ -95,32 +86,28 @@
 <div align="center">
 
 ## 📊 Analytics & Activity
-</div>
-
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=suryaprakashsingh96&bg_color=0d1117&color=a78bfa&line=7c3aed&point=ffffff&area=true&hide_border=true&border_radius=15" width="100%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=suryaprakash9695&bg_color=0d1117&color=a78bfa&line=7c3aed&point=ffffff&area=true&hide_border=true&border_radius=15" width="100%" />
 </p>
 
 <table align="center" width="100%">
   <tr>
-    <td align="center" width="50%">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=suryaprakashsingh96&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117" />
+    <td align="center" width="50%" style="border: none;">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=suryaprakash9695&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117" />
     </td>
-    <td align="center" width="50%">
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=suryaprakashsingh96&theme=tokyonight&hide_border=true&background=0d1117" />
+    <td align="center" width="50%" style="border: none;">
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=suryaprakash9695&theme=tokyonight&hide_border=true&background=0d1117" />
     </td>
   </tr>
 </table>
 
 ---
 
-<div align="center">
-
 ## 🐍 Evolution
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/suryaprakashsingh96/suryaprakashsingh96/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/suryaprakashsingh96/suryaprakashsingh96/output/github-contribution-grid-snake.svg" />
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/suryaprakashsingh96/suryaprakashsingh96/output/github-contribution-grid-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/suryaprakash9695/suryaprakash9695/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/suryaprakash9695/suryaprakash9695/output/github-contribution-grid-snake.svg" />
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/suryaprakash9695/suryaprakash9695/output/github-contribution-grid-snake.svg" />
 </picture>
 
 ---
@@ -129,12 +116,12 @@
 
 <a href="https://www.linkedin.com/in/suryaprakashsingh96/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 <a href="mailto:surya9792844645@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-<a href="https://suryaprakashsingh.netlify.app/"><img src="https://img.shields.io/badge/Portfolio-7c3aed?style=for-the-badge&logo=aboutdotme&logoColor=white" /></a>
 <a href="https://teamtechpro.netlify.app"><img src="https://img.shields.io/badge/Team_TechPro-FF5733?style=for-the-badge&logo=rocket&logoColor=white" /></a>
+<a href="https://suryaprakashsingh.netlify.app/"><img src="https://img.shields.io/badge/Portfolio-7c3aed?style=for-the-badge&logo=aboutdotme&logoColor=white" /></a>
 
 <br/>
 
-> 💡 *"Great code is not written; it's rewritten. Precision over complexity."*
+> 💡 *"Code is not just syntax — it's the language of innovation."*
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer" width="100%"/>
 </div>
