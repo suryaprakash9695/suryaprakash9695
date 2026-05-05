@@ -23,10 +23,10 @@
   <tr>
     <td width="55%" style="border: none; vertical-align: top;">
       <p>👋 <b>Greetings! I'm Surya,</b> a Full Stack Architect and AI Enthusiast. I specialize in crafting high-performance web ecosystems and security-focused applications.</p>
-      <p>I am the founder of <b>Team TechPro</b>, where we transform complex requirements into seamless digital experiences. My work spans from <b>OSINT dashboards</b> to <b>AI-powered security tools</b>.</p>
+      <p>I am the founder of <b>Team TechPro</b>, where we transform complex requirements into seamless digital experiences. </p>
       <ul>
-        <li>🔭 <b>Focus:</b> GEO-INT & AI Security Research</li>
-        <li>🌱 <b>Tech:</b> React, Python, FastAPI, & PHP</li>
+        <li>🔭 <b>Focus:</b> Full Stack Development</li>
+        <li>🌱 <b>Tech:</b> JS , React, Python, & PHP</li>
         <li>💻 <b>Goal:</b> Delivering enterprise-grade open source solutions</li>
       </ul>
     </td>
