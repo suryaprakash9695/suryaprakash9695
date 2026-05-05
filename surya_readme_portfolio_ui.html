@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Fira+Code:wght@400;500&display=swap');
+
+*{margin:0;padding:0;box-sizing:border-box;}
+body{background:#0a0a12;font-family:'Space Grotesk',sans-serif;color:#e2e8f0;min-height:100vh;}
+
+.hero{position:relative;overflow:hidden;padding:48px 32px 40px;text-align:center;background:linear-gradient(135deg,#0a0a12 0%,#12102a 50%,#0a1220 100%);}
+.hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 80% 60% at 50% 0%,rgba(124,58,237,0.18) 0%,transparent 70%);}
+.hero::after{content:'';position:absolute;inset:0;background-image:radial-gradient(circle,rgba(124,58,237,0.12) 1px,transparent 1px);background-size:28px 28px;}
+
+.avatar-ring{position:relative;display:inline-block;margin-bottom:20px;z-index:2;}
+.avatar-ring::before{content:'';position:absolute;inset:-4px;border-radius:50%;background:linear-gradient(135deg,#7c3aed,#06b6d4,#7c3aed);animation:spin 4s linear infinite;z-index:-1;}
+.avatar{width:96px;height:96px;border-radius:50%;background:linear-gradient(135deg,#1e1b4b,#312e81);display:flex;align-items:center;justify-content:center;font-size:36px;font-weight:700;color:#a78bfa;border:3px solid #0a0a12;}
+@keyframes spin{to{transform:rotate(360deg);}}
+
+.hero-name{font-size:36px;font-weight:700;letter-spacing:-0.5px;background:linear-gradient(135deg,#fff 30%,#a78bfa 70%,#06b6d4);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;position:relative;z-index:2;margin-bottom:8px;}
+.hero-title{font-family:'Fira Code',monospace;font-size:13px;color:#7c3aed;background:rgba(124,58,237,0.12);border:1px solid rgba(124,58,237,0.3);border-radius:20px;display:inline-block;padding:4px 16px;margin-bottom:16px;position:relative;z-index:2;}
+.hero-title::before{content:'> ';color:#06b6d4;}
+.typing{display:inline-block;font-size:14px;color:#94a3b8;position:relative;z-index:2;min-height:22px;}
+.cursor{display:inline-block;width:2px;height:16px;background:#7c3aed;margin-left:2px;vertical-align:middle;animation:blink 1s step-end infinite;}
+@keyframes blink{50%{opacity:0;}}
+
+.badges{display:flex;justify-content:center;gap:8px;flex-wrap:wrap;margin-top:16px;position:relative;z-index:2;}
+.badge{font-size:11px;font-family:'Fira Code',monospace;padding:4px 12px;border-radius:20px;font-weight:500;}
+.badge-purple{background:rgba(124,58,237,0.15);color:#a78bfa;border:1px solid rgba(124,58,237,0.35);}
+.badge-cyan{background:rgba(6,182,212,0.12);color:#22d3ee;border:1px solid rgba(6,182,212,0.3);}
+.badge-green{background:rgba(16,185,129,0.12);color:#34d399;border:1px solid rgba(16,185,129,0.3);}
+.badge-amber{background:rgba(245,158,11,0.12);color:#fbbf24;border:1px solid rgba(245,158,11,0.3);}
+
+.section{padding:28px 28px 8px;}
+.section-label{display:flex;align-items:center;gap:10px;font-size:11px;font-family:'Fira Code',monospace;color:#7c3aed;text-transform:uppercase;letter-spacing:2px;margin-bottom:20px;}
+.section-label::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,rgba(124,58,237,0.4),transparent);}
+
+.stats-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;}
+.stat-card{background:#12102a;border:1px solid rgba(124,58,237,0.2);border-radius:12px;padding:16px;text-align:center;position:relative;overflow:hidden;transition:border-color 0.2s,transform 0.2s;cursor:default;}
+.stat-card:hover{border-color:rgba(124,58,237,0.5);transform:translateY(-2px);}
+.stat-card::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,transparent,#7c3aed,transparent);}
+.stat-number{font-size:28px;font-weight:700;background:linear-gradient(135deg,#a78bfa,#06b6d4);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;}
+.stat-label{font-size:11px;color:#64748b;font-family:'Fira Code',monospace;margin-top:4px;}
+
+.skills-tabs{display:flex;gap:6px;margin-bottom:16px;flex-wrap:wrap;}
+.tab{font-size:12px;font-family:'Fira Code',monospace;padding:5px 14px;border-radius:6px;border:1px solid rgba(255,255,255,0.08);background:transparent;color:#64748b;cursor:pointer;transition:all 0.2s;}
+.tab.active{background:rgba(124,58,237,0.2);border-color:rgba(124,58,237,0.5);color:#a78bfa;}
+.tab:hover:not(.active){border-color:rgba(255,255,255,0.15);color:#94a3b8;}
+
+.skills-content{display:none;}
+.skills-content.active{display:block;}
+.skill-row{margin-bottom:12px;}
+.skill-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:6px;}
+.skill-name{font-size:13px;color:#cbd5e1;}
+.skill-pct{font-size:12px;font-family:'Fira Code',monospace;color:#7c3aed;}
+.bar-bg{height:5px;background:rgba(255,255,255,0.06);border-radius:3px;overflow:hidden;}
+.bar-fill{height:100%;border-radius:3px;background:linear-gradient(90deg,#7c3aed,#06b6d4);transform:scaleX(0);transform-origin:left;transition:transform 0.8s cubic-bezier(0.4,0,0.2,1);}
+
+.tech-grid{display:flex;flex-wrap:wrap;gap:8px;}
+.tech-pill{font-size:12px;font-family:'Fira Code',monospace;padding:5px 12px;border-radius:6px;border:1px solid rgba(255,255,255,0.1);color:#94a3b8;background:#111827;display:flex;align-items:center;gap:6px;transition:all 0.2s;cursor:default;}
+.tech-pill:hover{border-color:rgba(124,58,237,0.4);color:#a78bfa;background:rgba(124,58,237,0.08);}
+.dot{width:6px;height:6px;border-radius:50%;}
+.dot-purple{background:#7c3aed;}
+.dot-cyan{background:#06b6d4;}
+.dot-yellow{background:#fbbf24;}
+.dot-green{background:#10b981;}
+.dot-red{background:#ef4444;}
+.dot-blue{background:#3b82f6;}
+
+.projects-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;}
+.proj-card{background:#0f0f1e;border:1px solid rgba(255,255,255,0.06);border-radius:12px;padding:16px;transition:all 0.2s;cursor:pointer;text-decoration:none;display:block;}
+.proj-card:hover{border-color:rgba(124,58,237,0.4);background:#12102a;transform:translateY(-2px);}
+.proj-top{display:flex;align-items:flex-start;justify-content:space-between;margin-bottom:8px;}
+.proj-icon{width:36px;height:36px;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:18px;flex-shrink:0;}
+.proj-arrow{font-size:16px;color:#374151;transition:color 0.2s;}
+.proj-card:hover .proj-arrow{color:#7c3aed;}
+.proj-name{font-size:14px;font-weight:600;color:#e2e8f0;margin-bottom:4px;}
+.proj-desc{font-size:12px;color:#64748b;line-height:1.5;}
+.proj-tags{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px;}
+.proj-tag{font-size:10px;font-family:'Fira Code',monospace;padding:2px 8px;border-radius:4px;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);color:#64748b;}
+
+.connect-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;padding:0 28px 28px;}
+.connect-btn{display:flex;align-items:center;gap:10px;padding:12px 16px;border-radius:10px;border:1px solid rgba(255,255,255,0.08);background:#0f0f1e;text-decoration:none;transition:all 0.2s;cursor:pointer;}
+.connect-btn:hover{border-color:rgba(124,58,237,0.4);background:rgba(124,58,237,0.08);transform:translateY(-1px);}
+.connect-icon{width:32px;height:32px;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:16px;flex-shrink:0;}
+.connect-label{font-size:13px;font-weight:500;color:#cbd5e1;}
+.connect-sub{font-size:11px;color:#475569;font-family:'Fira Code',monospace;}
+
+.footer{text-align:center;padding:20px 28px 28px;border-top:1px solid rgba(255,255,255,0.04);}
+.footer-quote{font-size:13px;color:#475569;font-style:italic;line-height:1.6;}
+.footer-quote span{color:#7c3aed;}
+
+.divider{height:1px;background:linear-gradient(90deg,transparent,rgba(124,58,237,0.3),transparent);margin:0 28px;}
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <div class="avatar-ring">
+    <div class="avatar">SPS</div>
+  </div>
+  <div class="hero-name">Surya Prakash Singh</div>
+  <div class="hero-title">Full Stack Developer &amp; AI Enthusiast</div>
+  <div class="typing" id="typing-text"><span class="cursor"></span></div>
+  <div class="badges">
+    <span class="badge badge-purple">B.Tech CS 2027</span>
+    <span class="badge badge-cyan">Open Source</span>
+    <span class="badge badge-green">Available for Work</span>
+    <span class="badge badge-amber">Team TechPro</span>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-label">— stats</div>
+  <div class="stats-grid">
+    <div class="stat-card">
+      <div class="stat-number">9+</div>
+      <div class="stat-label">Projects Shipped</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-number">4+</div>
+      <div class="stat-label">Years Coding</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-number">∞</div>
+      <div class="stat-label">Lines Written</div>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-label">— tech skills</div>
+  <div class="skills-tabs">
+    <button class="tab active" onclick="switchTab('lang')">Languages</button>
+    <button class="tab" onclick="switchTab('web')">Web Dev</button>
+    <button class="tab" onclick="switchTab('db')">Database</button>
+    <button class="tab" onclick="switchTab('tools')">Tools</button>
+  </div>
+
+  <div class="skills-content active" id="tab-lang">
+    <div class="skill-row"><div class="skill-head"><span class="skill-name">JavaScript</span><span class="skill-pct">90%</span></div><div class="bar-bg"><div class="bar-fill" style="width:90%"></div></div></div>
+    <div class="skill-row"><div class="skill-head"><span class="skill-name">Python</span><span class="skill-pct">88%</span></div><div class="bar-bg"><div class="bar-fill" style="width:88%"></div></div></div>
+    <div class="skill-row"><div class="skill-head"><span class="skill-name">Java</span><span class="skill-pct">82%</span></div><div class="bar-bg"><div class="bar-fill" style="width:82%"></div></div></div>
+    <div class="skill-row"><div class="skill-head"><span class="skill-name">PHP</span><span class="skill-pct">72%</span></div><div class="bar-bg"><div class="bar-fill" style="width:72%"></div></div></div>
+    <div class="skill-row"><div class="skill-head"><span class="skill-name">C / C++</span><span class="skill-pct">75%</span></div><div class="bar-bg"><div class="bar-fill" style="width:75%"></div></div></div>
+  </div>
+
+  <div class="skills-content" id="tab-web">
+    <div class="tech-grid">
+      <span class="tech-pill"><span class="dot dot-red"></span>HTML5</span>
+      <span class="tech-pill"><span class="dot dot-blue"></span>CSS3</span>
+      <span class="tech-pill"><span class="dot dot-yellow"></span>JavaScript</span>
+      <span class="tech-pill"><span class="dot dot-purple"></span>Bootstrap</span>
+      <span class="tech-pill"><span class="dot dot-cyan"></span>React</span>
+      <span class="tech-pill"><span class="dot dot-green"></span>Node.js</span>
+      <span class="tech-pill"><span class="dot dot-cyan"></span>FastAPI</span>
+      <span class="tech-pill"><span class="dot dot-purple"></span>PHP</span>
+      <span class="tech-pill"><span class="dot dot-blue"></span>REST APIs</span>
+    </div>
+  </div>
+
+  <div class="skills-content" id="tab-db">
+    <div class="tech-grid">
+      <span class="tech-pill"><span class="dot dot-blue"></span>MySQL</span>
+      <span class="tech-pill"><span class="dot dot-cyan"></span>PostgreSQL</span>
+      <span class="tech-pill"><span class="dot dot-green"></span>MongoDB</span>
+    </div>
+  </div>
+
+  <div class="skills-content" id="tab-tools">
+    <div class="tech-grid">
+      <span class="tech-pill"><span class="dot dot-red"></span>Git</span>
+      <span class="tech-pill"><span class="dot dot-purple"></span>GitHub</span>
+      <span class="tech-pill"><span class="dot dot-blue"></span>VS Code</span>
+      <span class="tech-pill"><span class="dot dot-cyan"></span>Netlify</span>
+      <span class="tech-pill"><span class="dot dot-red"></span>Postman</span>
+    </div>
+  </div>
+</div>
+
+<div class="divider"></div>
+
+<div class="section" style="padding-bottom:20px;">
+  <div class="section-label">— featured projects</div>
+  <div class="projects-grid">
+    <a class="proj-card" href="https://suryaprakashsingh.netlify.app/" target="_blank">
+      <div class="proj-top">
+        <div class="proj-icon" style="background:rgba(124,58,237,0.15);">🌐</div>
+        <span class="proj-arrow">↗</span>
+      </div>
+      <div class="proj-name">My Portfolio</div>
+      <div class="proj-desc">Personal showcase of journey, skills &amp; projects.</div>
+      <div class="proj-tags"><span class="proj-tag">HTML</span><span class="proj-tag">CSS</span><span class="proj-tag">JS</span></div>
+    </a>
+    <a class="proj-card" href="https://teamtechpro.netlify.app" target="_blank">
+      <div class="proj-top">
+        <div class="proj-icon" style="background:rgba(6,182,212,0.12);">👨‍💻</div>
+        <span class="proj-arrow">↗</span>
+      </div>
+      <div class="proj-name">Team TechPro</div>
+      <div class="proj-desc">Freelancing platform for premium tech services.</div>
+      <div class="proj-tags"><span class="proj-tag">HTML</span><span class="proj-tag">CSS</span><span class="proj-tag">JS</span></div>
+    </a>
+    <a class="proj-card" href="https://wecarehospital.netlify.app" target="_blank">
+      <div class="proj-top">
+        <div class="proj-icon" style="background:rgba(16,185,129,0.12);">🏥</div>
+        <span class="proj-arrow">↗</span>
+      </div>
+      <div class="proj-name">WeCare Hospital</div>
+      <div class="proj-desc">AI-powered hospital management system.</div>
+      <div class="proj-tags"><span class="proj-tag">HTML</span><span class="proj-tag">AI</span><span class="proj-tag">JS</span></div>
+    </a>
+    <a class="proj-card" href="https://notesxpert.netlify.app" target="_blank">
+      <div class="proj-top">
+        <div class="proj-icon" style="background:rgba(245,158,11,0.12);">📝</div>
+        <span class="proj-arrow">↗</span>
+      </div>
+      <div class="proj-name">NotesXpert</div>
+      <div class="proj-desc">Smart note management &amp; sharing platform.</div>
+      <div class="proj-tags"><span class="proj-tag">HTML</span><span class="proj-tag">CSS</span><span class="proj-tag">JS</span></div>
+    </a>
+    <a class="proj-card" href="https://sngym.netlify.app/" target="_blank">
+      <div class="proj-top">
+        <div class="proj-icon" style="background:rgba(239,68,68,0.1);">🏋️</div>
+        <span class="proj-arrow">↗</span>
+      </div>
+      <div class="proj-name">SN GYM &amp; Fitness</div>
+      <div class="proj-desc">Gym site with QR-based payment integration.</div>
+      <div class="proj-tags"><span class="proj-tag">HTML</span><span class="proj-tag">CSS</span><span class="proj-tag">QR Pay</span></div>
+    </a>
+    <a class="proj-card" href="https://buddhbhumi.org/" target="_blank">
+      <div class="proj-top">
+        <div class="proj-icon" style="background:rgba(124,58,237,0.1);">🕊️</div>
+        <span class="proj-arrow">↗</span>
+      </div>
+      <div class="proj-name">Buddhbhumi Trust</div>
+      <div class="proj-desc">Official trust website for Kushinagar.</div>
+      <div class="proj-tags"><span class="proj-tag">HTML</span><span class="proj-tag">CSS</span><span class="proj-tag">JS</span></div>
+    </a>
+  </div>
+</div>
+
+<div class="divider"></div>
+
+<div class="section" style="padding-bottom:16px;">
+  <div class="section-label">— connect</div>
+</div>
+<div class="connect-grid">
+  <a class="connect-btn" href="https://www.linkedin.com/in/suryaprakashsingh96/" target="_blank">
+    <div class="connect-icon" style="background:rgba(59,130,246,0.15);">in</div>
+    <div><div class="connect-label">LinkedIn</div><div class="connect-sub">suryaprakashsingh96</div></div>
+  </a>
+  <a class="connect-btn" href="mailto:surya9792844645@gmail.com" target="_blank">
+    <div class="connect-icon" style="background:rgba(239,68,68,0.12);">✉</div>
+    <div><div class="connect-label">Gmail</div><div class="connect-sub">surya979284...</div></div>
+  </a>
+  <a class="connect-btn" href="https://suryaprakashsingh.netlify.app/" target="_blank">
+    <div class="connect-icon" style="background:rgba(124,58,237,0.15);">🌐</div>
+    <div><div class="connect-label">Portfolio</div><div class="connect-sub">suryaprakashsingh.netlify</div></div>
+  </a>
+  <a class="connect-btn" href="https://teamtechpro.netlify.app" target="_blank">
+    <div class="connect-icon" style="background:rgba(6,182,212,0.12);">⚡</div>
+    <div><div class="connect-label">Team TechPro</div><div class="connect-sub">teamtechpro.netlify</div></div>
+  </a>
+</div>
+
+<div class="footer">
+  <div class="footer-quote">"Code is not just syntax — it's the language of innovation.<br>Let's build something <span>extraordinary</span> together."</div>
+</div>
+
+<script>
+const lines = [
+  "Building Full Stack Web Apps 🚀",
+  "Exploring AI & Machine Learning 🤖",
+  "Crafting Open Source Tools 🌐",
+  "Turning Ideas into Reality ✨",
+  "Team TechPro — Let's Build! ⚡"
+];
+let li = 0, ci = 0, del = false;
+const el = document.getElementById('typing-text');
+
+function typeLoop() {
+  const cur = lines[li];
+  if (!del) {
+    ci++;
+    el.innerHTML = cur.slice(0, ci) + '<span class="cursor"></span>';
+    if (ci === cur.length) { del = true; setTimeout(typeLoop, 1800); return; }
+    setTimeout(typeLoop, 55);
+  } else {
+    ci--;
+    el.innerHTML = cur.slice(0, ci) + '<span class="cursor"></span>';
+    if (ci === 0) { del = false; li = (li + 1) % lines.length; setTimeout(typeLoop, 400); return; }
+    setTimeout(typeLoop, 30);
+  }
+}
+typeLoop();
+
+function switchTab(id) {
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  document.querySelectorAll('.skills-content').forEach(c => c.classList.remove('active'));
+  event.target.classList.add('active');
+  const content = document.getElementById('tab-' + id);
+  content.classList.add('active');
+  if (id === 'lang') {
+    setTimeout(() => {
+      content.querySelectorAll('.bar-fill').forEach(b => { b.style.transform = 'scaleX(1)'; });
+    }, 50);
+  }
+}
+
+setTimeout(() => {
+  document.querySelectorAll('#tab-lang .bar-fill').forEach(b => { b.style.transform = 'scaleX(1)'; });
+}, 300);
+</script>
+</body>
+</html>
