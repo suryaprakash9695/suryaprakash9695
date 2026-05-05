@@ -30,9 +30,7 @@
         <li>💻 <b>Goal:</b> Delivering enterprise-grade open source solutions</li>
       </ul>
     </td>
-    <td width="45%" style="border: none; vertical-align: top;">
-      <img src="https://github-readme-stats.vercel.app/api?username=suryaprakash9695&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d111700&title_color=a78bfa&icon_color=7c3aed&text_color=c9d1d9" width="100%" />
-    </td>
+    
   </tr>
 </table>
 
@@ -41,7 +39,7 @@
 <div align="center">
 
 ## 🛠️ Tech Arsenal
-<img src="https://skillicons.dev/icons?i=js,py,,java,php,html,css,react,nodejs,bootstrap,mysql,mongodb" alt="Tech Stack" />
+<img src="https://skillicons.dev/icons?i=js,py,java,php,html,css,react,nodejs,bootstrap,mysql,mongodb" alt="Tech Stack" />
 
 ---
 
@@ -86,15 +84,10 @@
 <div align="center">
 
 ## 📊 Analytics & Activity
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=suryaprakash9695&bg_color=0d1117&color=a78bfa&line=7c3aed&point=ffffff&area=true&hide_border=true&border_radius=15" width="100%" />
-</p>
+
 
 <table align="center" width="100%">
   <tr>
-    <td align="center" width="50%" style="border: none;">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=suryaprakash9695&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117" />
-    </td>
     <td align="center" width="50%" style="border: none;">
       <img src="https://github-readme-streak-stats.herokuapp.com/?user=suryaprakash9695&theme=tokyonight&hide_border=true&background=0d1117" />
     </td>
@@ -103,14 +96,6 @@
 
 ---
 
-## 🐍 Evolution
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/suryaprakash9695/suryaprakash9695/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/suryaprakash9695/suryaprakash9695/output/github-contribution-grid-snake.svg" />
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/suryaprakash9695/suryaprakash9695/output/github-contribution-grid-snake.svg" />
-</picture>
-
----
 
 ## 🤝 Let's Architect the Future
 
