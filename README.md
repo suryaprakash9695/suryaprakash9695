@@ -41,7 +41,7 @@
 <div align="center">
 
 ## 🛠️ Tech Arsenal
-<img src="https://skillicons.dev/icons?i=js,py,cpp,java,php,html,css,react,nextjs,nodejs,express,fastapi,bootstrap,tailwind,mysql,postgres,mongodb,firebase,git,github,vscode,postman,netlify" alt="Tech Stack" />
+<img src="https://skillicons.dev/icons?i=js,py,,java,php,html,css,react,nodejs,bootstrap,mysql,mongodb" alt="Tech Stack" />
 
 ---
 
